@@ -1,0 +1,356 @@
+body {
+  background-color: #f4f6f8;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  background-image: url("./assets/Triangle.svg");
+  height: 170px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 170px;
+  box-sizing: border-box;
+  padding-bottom: 45px;
+}
+
+.navbar a {
+  font-family: "Kumbh Sans", sans-serif;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.navbar .yonalish:hover {
+  color: rgb(205, 205, 205);
+}
+.header {
+  background-color: white;
+  width: 1190px;
+  height: 80px;
+  margin: auto;
+  margin-top: -40px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.header input {
+  border: none;
+  font-size: 16px;
+  font-family: Kumbh Sans;
+  font-weight: 400;
+  margin-left: 15px;
+  padding: 7px;
+  box-sizing: border-box;
+}
+
+.header .software input {
+  width: 300px;
+}
+
+.header div {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #9ca8b8;
+  height: 10vh;
+}
+
+.page_one a:hover {
+  color: #9ca8b8;
+}
+
+.header div:last-child {
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header div:first-child {
+  padding-right: 100px;
+}
+
+.header div:nth-child(2) {
+  margin-left: 30px;
+  width: 70%;
+}
+
+.header input[type="checkbox"] {
+  width: 50px;
+  font-size: 30px;
+  height: 20px;
+}
+
+.header div:last-child button {
+  background-color: #5964e0;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  width: 123px;
+  height: 45px;
+  font-family: Kumbh Sans;
+  font-weight: 700;
+}
+
+label {
+  font-size: 16px;
+  font-family: Kumbh Sans;
+  font-weight: 800;
+}
+
+.page_home {
+  display: flex;
+}
+
+.page {
+  margin: 0px 173px;
+  margin-top: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.page_one img {
+  margin-top: -50px;
+  margin-bottom: 20px;
+  width: 55px;
+}
+
+.page .page_one {
+  width: 370px;
+  height: 228px;
+  border-radius: 5px;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  margin-bottom: 70px;
+}
+
+.page_home {
+  color: #6e8098;
+
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.page_home span:not(:first-child) {
+  margin: 0px 10px;
+}
+
+.page_one .yonalish {
+  color: #19202d;
+  font-family: Kumbh Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 10px 0px;
+}
+
+.page_two {
+  color: #6e8098;
+
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 45px;
+}
+
+.page_one a {
+  text-decoration: none;
+  font-family: Kumbh Sans;
+  font-weight: 600;
+}
+
+.btn {
+  background-color: #5964e0;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  width: 123px;
+  height: 45px;
+  font-family: Kumbh Sans;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn_one {
+  text-align: center;
+  background-color: white;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 400px;
+  box-sizing: border-box;
+}
+
+.bir {
+  width: 730px;
+  margin: auto;
+  margin-top: -40px;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.ikki {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  padding: 0px 30px;
+}
+
+.uch {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  font-family: Kumbh Sans;
+  font-weight: 700;
+}
+
+.uch span {
+  color: #6e8098;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+.ikki button {
+  color: #5964e0;
+  text-align: center;
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 147px;
+  height: 48px;
+  border: none;
+  border-radius: 5px;
+}
+
+.tort {
+  background-color: white;
+  border-radius: 5px;
+  padding: 30px;
+  width: 730px;
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.besh {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn2 {
+  background-color: #5964e0;
+  color: white;
+  text-align: center;
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 147px;
+  height: 48px;
+  border: none;
+  border-radius: 5px;
+}
+
+.olti {
+  color: #6e8098;
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sakkiz {
+  font-family: Kumbh Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.toqqiz {
+  color: #5964e0;
+
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.on {
+  width: 680px;
+  color: #6e8098;
+
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.onbir {
+  margin-top: 40px;
+  margin-bottom: -10px;
+  font-family: Kumbh Sans;
+  font-size: 22px;
+}
+
+.onikki {
+  margin-left: 20px;
+}
+
+.ontort {
+  text-align: left;
+}
+
+.ontort h2 {
+  color: #19202d;
+
+  font-family: Kumbh Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.ontort span {
+  color: #6e8098;
+  font-weight: 400;
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  margin-top: 7px;
+}
